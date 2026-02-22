@@ -1,0 +1,150 @@
+{
+  "aiAssistantIds": [
+    "paraphrase",
+    "paragraph-summarizer-expert",
+    "plain-english",
+    "twitter",
+    "tech",
+    "reddit",
+    "paper",
+    "news",
+    "music",
+    "medical",
+    "legal",
+    "github",
+    "game",
+    "ecommerce",
+    "financial",
+    "fiction",
+    "ao3",
+    "ebook",
+    "design",
+    "bilingual-mix",
+    "web3"
+  ],
+  "customAiAssistants": [],
+  "enableInputTranslation": false,
+  "enableInputTranslationWithoutTriggerKey": false,
+  "generalRule": {
+    "aiWriting.add": {
+      "enable": false
+    },
+    "imageRule.add": {
+      "enableMangaFloatBall": false,
+      "enableMouseHover": false
+    },
+    "inputConfig.add": {
+      "autoLanguageEnable": false
+    },
+    "selectionTranslation.add": {
+      "enable": true
+    },
+    "subtitleRule.add": {
+      "meetingAutoEnableSubtitle": false,
+      "youtubeAutoEnableSubtitle": false
+    }
+  },
+  "isChangedAlwaysTranslatedUrls": false,
+  "isEnableGuideTips": false,
+  "isShowContextMenu": false,
+  "localUpdatedAt": "2026-02-22T01:54:26.884Z",
+  "pcFloatBall": {
+    "afterInstalledAt": "2023-10-28",
+    "blockUrls": [
+      "*immersivetranslate.*/preview",
+      "*.immersivetranslate.*/download-subtitle*",
+      "dash.immersivetranslate.*/*"
+    ],
+    "clickType": "translate",
+    "defaultShowGuideNums": 4,
+    "enable": true,
+    "enablePinSidePanel": true,
+    "enableSidePanel": true,
+    "fixedPosition": "right",
+    "guideArrowPermanentUrls": [
+      "https://*.immersivetranslate.*/*/intro/step-1",
+      "https://*.immersivetranslate.*/*/tutorial/step-2",
+      "https://*.immersivetranslate.*/*/new-guide/step-3"
+    ],
+    "guideBlockUrls": [
+      "https://immersivetranslate.*/accounts/login*",
+      "https://immersivetranslate.*/profile/",
+      "https://onboarding.immersivetranslate.**",
+      "https://*.immersivetranslate.*/*/intro/tutorial/step-1*",
+      "https://*.immersivetranslate.*/*/new-guide/step-1*",
+      "https://*.immersivetranslate.*/*/new-guide/step-2*",
+      "https://*.immersivetranslate.*/*/quickstart/*"
+    ],
+    "guideContentBlockUrls": [
+      "https://*.immersivetranslate.*/*/tutorial/*",
+      "https://*.immersivetranslate.*/*/intro/*",
+      "https://*.immersivetranslate.*/*/init/*",
+      "https://*.immersivetranslate.*/*/new-guide/*"
+    ],
+    "isPc": true,
+    "transparency": 30,
+    "upgradeShowLimit": 20,
+    "upgradeVisible": true
+  },
+  "pcFloatBallMainBtnTooltipShownCount": 4,
+  "sensitiveConfig": {
+    "telemetry": false
+  },
+  "translationService": "siliconcloud",
+  "translationServiceChangedbyUserAt": "2026-02-21T15:01:57.955Z",
+  "translationServices": {
+    "bing-free": {
+      "visible": false
+    },
+    "claude-max": {
+      "visible": false
+    },
+    "claude-pro": {
+      "visible": false
+    },
+    "deepl-pro": {
+      "visible": false
+    },
+    "deepseek-pro": {
+      "visible": false
+    },
+    "gemini-max": {
+      "visible": false
+    },
+    "gemini-pro": {
+      "visible": false
+    },
+    "google-free": {
+      "visible": false
+    },
+    "grok-pro": {
+      "visible": false
+    },
+    "hunyuan-pro": {
+      "visible": false
+    },
+    "kimi-max": {
+      "visible": false
+    },
+    "openai-max": {
+      "visible": false
+    },
+    "openai-pro": {
+      "visible": false
+    },
+    "qwen-pro": {
+      "visible": false
+    },
+    "siliconcloud-free": {
+      "assistantId": "auto"
+    },
+    "zhipu-pro": {
+      "visible": false
+    }
+  },
+  "translationTheme": "dashed",
+  "updatedAt": "2026-02-22T01:54:26.884Z",
+  "userTranslationServices": {
+    "translationService": "siliconcloud-free"
+  }
+}
