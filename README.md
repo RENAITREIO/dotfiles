@@ -1,6 +1,1 @@
 # dotfiles
-
-~/.config/kitty/kitty.conf
-~/.config/niri/config.kdl
-~/.config/fish/config.fish
-/etc/vimrc
