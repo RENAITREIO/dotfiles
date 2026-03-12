@@ -1,4 +1,6 @@
 # dotfiles
-/home/elaine/.config/kitty/kitty.conf
-/home/elaine/.config/niri/config.kdl
+
+~/.config/kitty/kitty.conf
+~/.config/niri/config.kdl
+~/.config/fish/config.fish
 /etc/vimrc
