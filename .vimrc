@@ -8,6 +8,7 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+nnoremap <CR> :nohlsearch<CR><CR>
 
 set hidden
 
