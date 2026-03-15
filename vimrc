@@ -20,3 +20,5 @@ runtime! archlinux.vim
 set number
 set relativenumber
 set cursorline
+set tabstop=4
+set shiftwidth=4

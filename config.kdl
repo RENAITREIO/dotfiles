@@ -310,6 +310,9 @@ animations {
 
 window-rule {
     open-maximized true
+	draw-border-with-background false
+	geometry-corner-radius 12
+	clip-to-geometry true
 }
 
 // Work around WezTerm's initial configure bug
@@ -636,6 +639,5 @@ layer-rule {
 
 spawn-at-startup "qs" "-c" "noctalia-shell"
 spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
-
 include "./noctalia.kdl"
 
