@@ -20,3 +20,8 @@ set tabstop=4
 set shiftwidth=4
 set smartindent
 
+set foldenable
+set foldmethod=syntax
+set foldcolumn=0
+setlocal foldlevel=1
+nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
