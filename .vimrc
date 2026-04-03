@@ -15,6 +15,7 @@ set hidden
 set number
 set relativenumber
 set cursorline
+set scrolloff=4
 
 set tabstop=4
 set shiftwidth=4
