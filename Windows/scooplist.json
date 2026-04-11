@@ -1,0 +1,312 @@
+{
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": {
+                "value": "\/Date(1775782803000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2026年4月10日 9:00:03"
+            },
+            "Manifests": 1492
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": {
+                "value": "\/Date(1775782845000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2026年4月10日 9:00:45"
+            },
+            "Manifests": 2290
+        },
+        {
+            "Name": "java",
+            "Source": "https://github.com/ScoopInstaller/Java",
+            "Updated": {
+                "value": "\/Date(1775595011000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2026年4月8日 4:50:11"
+            },
+            "Manifests": 325
+        },
+        {
+            "Name": "games",
+            "Source": "https://github.com/Calinou/scoop-games",
+            "Updated": {
+                "value": "\/Date(1775783782000)\/",
+                "DisplayHint": 2,
+                "DateTime": "2026年4月10日 9:16:22"
+            },
+            "Manifests": 394
+        }
+    ],
+    "apps": [
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "7zip",
+            "Version": "26.00",
+            "Updated": "\/Date(1770944528465)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "btop",
+            "Version": "1.0.5",
+            "Updated": "\/Date(1774769483719)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "cherry-studio",
+            "Version": "1.8.4",
+            "Updated": "\/Date(1774769578078)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "clash-verge-rev",
+            "Version": "2.4.7",
+            "Updated": "\/Date(1774106233502)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "cuda",
+            "Version": "13.2.0",
+            "Updated": "\/Date(1773276261931)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "docker",
+            "Version": "29.4.0",
+            "Updated": "\/Date(1775609921896)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "etcher",
+            "Version": "2.1.4",
+            "Updated": "\/Date(1770527640383)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "fastfetch",
+            "Version": "2.61.0",
+            "Updated": "\/Date(1774769579423)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "filelight",
+            "Version": "26.04-2060",
+            "Updated": "\/Date(1775609987986)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "gh",
+            "Version": "2.89.0",
+            "Updated": "\/Date(1774769831226)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "git",
+            "Version": "2.53.0.2",
+            "Updated": "\/Date(1773276285259)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "googlechrome",
+            "Version": "147.0.7727.56",
+            "Updated": "\/Date(1775610001492)\/"
+        },
+        {
+            "Info": "",
+            "Source": "games",
+            "Name": "hmcl",
+            "Version": "3.12.2",
+            "Updated": "\/Date(1774769833031)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "localsend",
+            "Version": "1.17.0",
+            "Updated": "\/Date(1770526878138)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "logisim-evolution",
+            "Version": "4.1.0",
+            "Updated": "\/Date(1771463298926)\/"
+        },
+        {
+            "Info": "",
+            "Source": "games",
+            "Name": "maa",
+            "Version": "6.7.1",
+            "Updated": "\/Date(1775610018147)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "memreduct",
+            "Version": "3.5.2",
+            "Updated": "\/Date(1770526965885)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "mingw",
+            "Version": "15.2.0-rt_v13-rev1",
+            "Updated": "\/Date(1771549109499)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "neovim",
+            "Version": "0.12.1",
+            "Updated": "\/Date(1775610023349)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "nodejs",
+            "Version": "25.9.0",
+            "Updated": "\/Date(1775610029706)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "oh-my-posh",
+            "Version": "29.9.2",
+            "Updated": "\/Date(1774489967992)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "opencode",
+            "Version": "1.4.0",
+            "Updated": "\/Date(1775659926734)\/"
+        },
+        {
+            "Info": "",
+            "Source": "java",
+            "Name": "openjdk",
+            "Version": "25.0.2-10",
+            "Updated": "\/Date(1771463779254)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "pandoc",
+            "Version": "3.9.0.2",
+            "Updated": "\/Date(1774576351399)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "potplayer",
+            "Version": "260401",
+            "Updated": "\/Date(1775054458465)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "qbittorrent-enhanced",
+            "Version": "5.1.3.10",
+            "Updated": "\/Date(1770527485431)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "qq-nt",
+            "Version": "9.9.29.260401",
+            "Updated": "\/Date(1775054597200)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "sudo",
+            "Version": "0.2020.01.26",
+            "Updated": "\/Date(1771548927137)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "sumatrapdf",
+            "Version": "3.6.1",
+            "Updated": "\/Date(1775610037541)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "uv",
+            "Version": "0.11.4",
+            "Updated": "\/Date(1775659934189)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "v2rayn",
+            "Version": "7.19.5",
+            "Updated": "\/Date(1774106243849)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "vscode",
+            "Version": "1.115.0",
+            "Updated": "\/Date(1775660153637)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wechat",
+            "Version": "4.1.8.101",
+            "Updated": "\/Date(1775610052618)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wezterm",
+            "Version": "20240203-110809-5046fc22",
+            "Updated": "\/Date(1774883732997)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "winscp",
+            "Version": "6.5.6",
+            "Updated": "\/Date(1774668269919)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wireshark",
+            "Version": "4.6.4",
+            "Updated": "\/Date(1773586435388)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "xmake",
+            "Version": "3.0.8",
+            "Updated": "\/Date(1774489995422)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "yazi",
+            "Version": "26.1.22",
+            "Updated": "\/Date(1773193627746)\/"
+        }
+    ]
+}
