@@ -2,3 +2,4 @@
 ~/.config/niri/config.kdl
 ~/.config/fish/config.fish
 ~/.vimrc
+~/.config/nvim/
