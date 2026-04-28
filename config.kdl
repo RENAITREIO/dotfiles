@@ -313,6 +313,10 @@ window-rule {
 	draw-border-with-background false
 	geometry-corner-radius 12
 	clip-to-geometry true
+	background-effect {
+    	blur true
+    	xray false
+  	}
 }
 
 // Work around WezTerm's initial configure bug
