@@ -22,6 +22,7 @@
     "bilingual-mix",
     "web3"
   ],
+  "conflictNeedConfirm": true,
   "customAiAssistants": [],
   "enableInputTranslation": false,
   "enableInputTranslationWithoutTriggerKey": false,
@@ -47,7 +48,7 @@
   "isChangedAlwaysTranslatedUrls": false,
   "isEnableGuideTips": false,
   "isShowContextMenu": false,
-  "localUpdatedAt": "2026-02-22T01:54:26.884Z",
+  "localUpdatedAt": "2026-05-04T08:25:30.052Z",
   "pcFloatBall": {
     "afterInstalledAt": "2023-10-28",
     "blockUrls": [
@@ -82,11 +83,12 @@
       "https://*.immersivetranslate.*/*/new-guide/*"
     ],
     "isPc": true,
+    "mini": true,
     "transparency": 30,
     "upgradeShowLimit": 20,
     "upgradeVisible": true
   },
-  "pcFloatBallMainBtnTooltipShownCount": 4,
+  "pcFloatBallMainBtnTooltipShownCount": 5,
   "sensitiveConfig": {
     "telemetry": false
   },
@@ -143,7 +145,7 @@
     }
   },
   "translationTheme": "dashed",
-  "updatedAt": "2026-02-22T01:54:26.884Z",
+  "updatedAt": "2026-05-04T08:25:30.052Z",
   "userTranslationServices": {
     "translationService": "siliconcloud-free"
   }
