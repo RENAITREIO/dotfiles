@@ -25,4 +25,5 @@ set foldenable
 set foldmethod=syntax
 set foldcolumn=0
 setlocal foldlevel=1
+set foldlevelstart=99
 nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
