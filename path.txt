@@ -3,3 +3,4 @@
 ~/.config/fish/config.fish
 ~/.vimrc
 ~/.config/nvim/
+~/.config/mpv/
