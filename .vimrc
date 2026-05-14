@@ -17,8 +17,8 @@ set relativenumber
 set cursorline
 set scrolloff=4
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+"set shiftwidth=4
 set smartindent
 
 set foldenable
