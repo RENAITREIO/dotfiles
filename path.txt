@@ -1,6 +1,7 @@
-~/.config/kitty/kitty.conf
+~/.config/kitty/
 ~/.config/niri/config.kdl
 ~/.config/fish/config.fish
 ~/.vimrc
 ~/.config/nvim/
 ~/.config/mpv/
+~/.config/noctalia/
