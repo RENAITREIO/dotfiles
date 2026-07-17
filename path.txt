@@ -5,3 +5,4 @@
 ~/.config/nvim/
 ~/.config/mpv/
 ~/.config/noctalia/
+~/.bashrc
