@@ -6,3 +6,4 @@
 ~/.config/mpv/
 ~/.config/noctalia/
 ~/.bashrc
+~/.config/fastfetch/

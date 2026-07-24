@@ -148,7 +148,9 @@
                         "键盘 - 英语（美国）",
                         "steam",
                         "chrome_status_icon_1",
-                        "微信"
+                        "微信",
+                        "拼音",
+                        "tray-icon tray app clash-verge-rev-tray"
                     ]
                 },
                 {
@@ -333,7 +335,7 @@
         "animationDisabled": false,
         "animationSpeed": 1,
         "autoStartAuth": false,
-        "avatarImage": "/home/elaine/.face",
+        "avatarImage": "/home/elaine/Pictures/face.jpg",
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
         "clockStyle": "custom",
@@ -441,7 +443,7 @@
         "bluetoothRssiPollIntervalMs": 10000,
         "bluetoothRssiPollingEnabled": false,
         "disableDiscoverability": false,
-        "networkPanelView": "ethernet",
+        "networkPanelView": "wifi",
         "wifiDetailsViewMode": "grid"
     },
     "nightLight": {
