@@ -7,3 +7,5 @@
 ~/.config/noctalia/
 ~/.bashrc
 ~/.config/fastfetch/
+~/.config/yazi/
+~/.config/qq-flags.conf
