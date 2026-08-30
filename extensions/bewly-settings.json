@@ -1,0 +1,548 @@
+{
+  "touchScreenOptimization": false,
+  "showHomeButtonInTouchMode": true,
+  "openTopBarItemsInBewly": true,
+  "enableGridLayoutSwitcher": true,
+  "enableHorizontalScrolling": false,
+  "showIPLocation": true,
+  "showSex": true,
+  "showCommentHostTag": true,
+  "enableCommentReplyTreeDisplay": true,
+  "commentReplyTreeMode": "lineKeepMain",
+  "commentReplyPaginationMode": "loadMore",
+  "adjustCommentImageHeight": true,
+  "hideCommentImageScrollbar": false,
+  "enlargeFavoriteDialog": false,
+  "externalWatchLaterButton": false,
+  "gridColumns": {
+    "base": 1,
+    "sm": 2,
+    "md": 3,
+    "lg": 4,
+    "xl": 5,
+    "xxl": 6
+  },
+  "autoSwitchListLayout": true,
+  "autoSwitchListLayoutBreakpoint": 640,
+  "videoCardCoverRatioOneColumn": 40,
+  "videoCardCoverRatioTwoColumns": 50,
+  "releaseOffscreenVideoCardImages": false,
+  "language": "cmn-CN",
+  "customizeFont": "default",
+  "fontFamily": "CJKEmDash, Numbers, Onest, ShangguSansSCVF, -apple-system, BlinkMacSystemFont, InterVariable, Inter, \"Segoe UI\", Cantarell, \"Noto Sans\", \"Roboto Flex\", Roboto, sans-serif, ui-sans-serif, system-ui, \"Apple Color Emoji\", \"Twemoji Mozilla\", \"Noto Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", emoji",
+  "overrideDanmakuFont": true,
+  "removeTheIndentFromChinesePunctuation": false,
+  "enableFrostedGlass": false,
+  "frostedGlassBlurIntensity": 20,
+  "enableLiquidSegmentIndicator": false,
+  "disableShadow": false,
+  "videoCardLinkOpenMode": "newTab",
+  "topBarLinkOpenMode": "currentTabIfNotHomepage",
+  "searchBarLinkOpenMode": "currentTabIfNotHomepage",
+  "closeDrawerWithoutPressingEscAgain": false,
+  "blockAds": true,
+  "blockTopSearchPageAds": false,
+  "cleanUrlArgument": true,
+  "enableCleanShareLink": false,
+  "cleanShareLinkIncludeTitle": false,
+  "cleanShareLinkRemoveTrackingParams": true,
+  "enableVideoPreview": true,
+  "enableVideoCtrlBarOnVideoCard": false,
+  "enableVideoPreviewSwipeSeek": false,
+  "hoverVideoCardDelayed": false,
+  "onlyCoverVideoPreview": false,
+  "showVideoCardAuthorAvatar": true,
+  "showVideoCardAuthorName": true,
+  "showVideoCardVideoTag": true,
+  "showVideoCardRecommendTag": true,
+  "showVideoCardPublishTime": true,
+  "showVideoCardViewCount": true,
+  "showVideoCardDanmakuCount": true,
+  "showVideoCardLikeCount": true,
+  "showVideoCardDuration": true,
+  "showVideoCardWatchLater": true,
+  "showVideoCardMoreButton": true,
+  "showVideoWatchedBadge": false,
+  "videoCardContextMenuConfig": [
+    {
+      "key": "notInterested",
+      "visible": true
+    },
+    {
+      "key": "notInterestedUploader",
+      "visible": true
+    },
+    {
+      "key": "openInNewTab",
+      "visible": true
+    },
+    {
+      "key": "openInBackground",
+      "visible": true
+    },
+    {
+      "key": "openInNewWindow",
+      "visible": true
+    },
+    {
+      "key": "openInCurrentTab",
+      "visible": true
+    },
+    {
+      "key": "openInDrawer",
+      "visible": true
+    },
+    {
+      "key": "copyVideoLink",
+      "visible": true
+    },
+    {
+      "key": "copyCleanVideoLink",
+      "visible": true
+    },
+    {
+      "key": "copyBVNumber",
+      "visible": true
+    },
+    {
+      "key": "copyAVNumber",
+      "visible": true
+    },
+    {
+      "key": "viewOriginalCover",
+      "visible": true
+    },
+    {
+      "key": "followUser",
+      "visible": true
+    },
+    {
+      "key": "blockUser",
+      "visible": true
+    }
+  ],
+  "autoHideTopBar": false,
+  "showLayoutEditButton": true,
+  "videoPageTopBarConfig": "showOnScroll",
+  "topBarStyle": "default",
+  "showTopBarThemeColorGradient": true,
+  "showBewlyOrBiliPageSwitcher": true,
+  "showBewlyOrBiliPageSwitcherOnMorePages": true,
+  "topBarLogoStyle": "icon",
+  "topBarIconBadges": "number",
+  "showWatchLaterBadge": false,
+  "topBarComponentsConfig": [
+    {
+      "key": "moments",
+      "visible": true,
+      "badgeType": "number"
+    },
+    {
+      "key": "favorites",
+      "visible": true,
+      "badgeType": "none"
+    },
+    {
+      "key": "history",
+      "visible": true,
+      "badgeType": "none"
+    },
+    {
+      "key": "watchLater",
+      "visible": false,
+      "badgeType": "number"
+    },
+    {
+      "key": "creatorCenter",
+      "visible": true,
+      "badgeType": "none"
+    },
+    {
+      "key": "upload",
+      "visible": false,
+      "badgeType": "none"
+    },
+    {
+      "key": "notifications",
+      "visible": true,
+      "badgeType": "number"
+    },
+    {
+      "key": "pinnedChannels",
+      "visible": true,
+      "badgeType": "none"
+    },
+    {
+      "key": "avatar",
+      "visible": true,
+      "badgeType": "none"
+    },
+    {
+      "key": "topBarSwitcher",
+      "visible": true,
+      "badgeType": "none"
+    }
+  ],
+  "topBarPinnedChannels": [],
+  "openNotificationsPageAsDrawer": true,
+  "showLikeNotificationReminder": false,
+  "hideTopBarUserPanelLv6LastLoginLocation": true,
+  "showBCoinReceiveReminder": false,
+  "autoReceiveBCoinCoupon": false,
+  "autoReceiveVipExp": false,
+  "filterArticlesInMoments": true,
+  "originalMomentsShowUserCard": true,
+  "originalMomentsShowLiveList": true,
+  "originalMomentsShowCommunityCenter": false,
+  "originalMomentsShowHotSearch": true,
+  "originalMomentsShowUpList": true,
+  "momentsSidebarShowUserCard": true,
+  "momentsSidebarShowPublish": true,
+  "momentsSidebarShowLive": true,
+  "momentsSidebarShowHotSearch": true,
+  "momentsShowUpList": true,
+  "momentsTabsPosition": "left",
+  "momentsEnableLivePreview": true,
+  "momentsEnableVideoPreview": true,
+  "momentsGridColumns": "1",
+  "momentsEnableWantedFilter": true,
+  "momentsFilterUpRecommendation": false,
+  "momentsHideChargeExclusive": false,
+  "momentsHideVideoReservation": false,
+  "momentsHideLiveReservation": false,
+  "momentsHideLiveDynamics": false,
+  "momentsHideVideoDynamics": false,
+  "momentsHideDrawDynamics": false,
+  "momentsHideUgcSeasonDynamics": false,
+  "momentsHideForwardDynamics": false,
+  "momentsHidePgcDynamics": false,
+  "momentsHideArticleDynamics": false,
+  "momentsEnableKeywordFilter": false,
+  "momentsBlockedKeywords": "",
+  "momentsCardOpenMode": "dialog",
+  "momentsVideoCardOpenMode": "inherit",
+  "alwaysUseDock": false,
+  "autoHideDock": true,
+  "halfHideDock": false,
+  "dockPosition": "right",
+  "dockItemsConfig": [
+    {
+      "page": "Home",
+      "visible": true,
+      "openInNewTab": false,
+      "useOriginalBiliPage": false
+    },
+    {
+      "page": "Search",
+      "visible": true,
+      "openInNewTab": false,
+      "useOriginalBiliPage": false
+    },
+    {
+      "page": "Anime",
+      "visible": true,
+      "openInNewTab": false,
+      "useOriginalBiliPage": false
+    },
+    {
+      "page": "Favorites",
+      "visible": true,
+      "openInNewTab": false,
+      "useOriginalBiliPage": false
+    },
+    {
+      "page": "History",
+      "visible": true,
+      "openInNewTab": false,
+      "useOriginalBiliPage": false
+    },
+    {
+      "page": "WatchLater",
+      "visible": true,
+      "openInNewTab": false,
+      "useOriginalBiliPage": false
+    },
+    {
+      "page": "Moments",
+      "visible": true,
+      "openInNewTab": false,
+      "useOriginalBiliPage": false
+    }
+  ],
+  "disableDockGlowingEffect": false,
+  "disableLightDarkModeSwitcherOnDock": false,
+  "backToTopAndRefreshButtonsAreSeparated": true,
+  "alwaysShowDockActionsWhenAutoHide": false,
+  "enableUndoRefreshButton": true,
+  "sidebarPosition": "right",
+  "autoHideSidebar": false,
+  "theme": "auto",
+  "themeScheduleStart": "06:00",
+  "themeScheduleEnd": "18:00",
+  "videoPageDarkMode": false,
+  "themeColor": "#00a1d6",
+  "darkModeBaseColor": "#2a2d32",
+  "useLinearGradientThemeColorBackground": false,
+  "wallpaperMode": "buildIn",
+  "wallpaper": "",
+  "enableWallpaperMasking": false,
+  "wallpaperMaskOpacity": 80,
+  "wallpaperBlurIntensity": 0,
+  "wallpaperCacheTime": 0,
+  "searchPageDarkenOnSearchFocus": true,
+  "searchPageBlurredOnSearchFocus": false,
+  "searchPageLogoColor": "themeColor",
+  "searchPageLogoGlow": true,
+  "searchPageShowLogo": true,
+  "searchPageSearchBarFocusCharacter": "chrome-extension://oopkfefbgecikmfbbapnlpjidoomhjpl/assets/search-bar-characters/33chan-1.png",
+  "individuallySetSearchPageWallpaper": false,
+  "searchPageWallpaperMode": "buildIn",
+  "searchPageWallpaper": "",
+  "searchPageEnableWallpaperMasking": false,
+  "searchPageWallpaperMaskOpacity": 80,
+  "searchPageWallpaperBlurIntensity": 0,
+  "searchPageWallpaperCacheTime": 0,
+  "showHotSearchInTopBar": true,
+  "showSearchRecommendation": false,
+  "enableSearchHistory": true,
+  "usePluginSearchResultsPage": true,
+  "depersonalizeSearchResults": false,
+  "searchResultsPaginationMode": "scroll",
+  "recommendationMode": "web",
+  "autoSwitchRecommendationMode": true,
+  "showRecommendationFilterRiskWarning": true,
+  "disableFilterForFollowedUser": false,
+  "filterOutVerticalVideos": false,
+  "enableFilterByViewCount": false,
+  "filterByViewCount": 10000,
+  "enableFilterByLikeCount": false,
+  "filterByLikeCount": 1000,
+  "enableFilterByDuration": false,
+  "filterByDuration": 3600,
+  "enableFilterByTitle": false,
+  "filterByTitle": [],
+  "enableFilterByUser": false,
+  "filterByUser": [],
+  "enableFilterByPublishTime": false,
+  "filterByPublishTime": 30,
+  "followingTabShowLivestreamingVideos": true,
+  "followingFilterChargingVideos": false,
+  "followingFilterDynamicVideos": false,
+  "useFollowingNewLayout": true,
+  "collectedSeasonPlayAllMode": "beginning",
+  "homePageTabVisibilityList": [
+    {
+      "page": "ForYou",
+      "visible": true
+    },
+    {
+      "page": "Following",
+      "visible": true
+    },
+    {
+      "page": "SubscribedSeries",
+      "visible": false
+    },
+    {
+      "page": "Trending",
+      "visible": true
+    },
+    {
+      "page": "Weekly",
+      "visible": false
+    },
+    {
+      "page": "Precious",
+      "visible": false
+    },
+    {
+      "page": "Ranking",
+      "visible": true
+    },
+    {
+      "page": "Live",
+      "visible": true
+    }
+  ],
+  "homeTabsPosition": "left",
+  "alwaysShowTabsOnHomePage": false,
+  "fixedHomeTabsOnHomePage": false,
+  "enableVersionReminder": true,
+  "lastAcknowledgedVersion": "1.7.8",
+  "homeAdaptiveTitleFontSize": 16,
+  "homeAdaptiveTitleAutoSize": true,
+  "videoCardTitleFontSize": "base",
+  "videoCardAuthorFontSize": "sm",
+  "videoCardMetaFontSize": "xs",
+  "videoCardLayout": "modern",
+  "videoCardShadowCurve": [
+    {
+      "position": 0,
+      "opacity": 80
+    },
+    {
+      "position": 30,
+      "opacity": 70
+    },
+    {
+      "position": 100,
+      "opacity": 0
+    }
+  ],
+  "videoCardShadowHeight": 1,
+  "useSearchPageModeOnHomePage": false,
+  "searchPageModeWallpaperFixed": false,
+  "preserveForYouState": false,
+  "rememberNoCookieRecommendationState": true,
+  "adaptToOtherPageStyles": true,
+  "enableTopBar": true,
+  "useOriginalBilibiliTopBar": false,
+  "useOriginalBilibiliHomepage": false,
+  "preventMobileRedirect": false,
+  "defaultVideoPlayerMode": "default",
+  "bewlyWidescreenSidebarPosition": "right",
+  "bewlyWidescreenSidebarPriority": "video",
+  "bewlyWidescreenCenterVerticalVideo": false,
+  "defaultDanmakuState": "system",
+  "defaultCaptionState": "system",
+  "lastDanmakuState": true,
+  "lastCaptionState": false,
+  "enableVideoPlayerModeOverrides": false,
+  "videoPlayerModeOverrides": {
+    "multipart": "inherit",
+    "collection": "inherit",
+    "bangumi": "inherit",
+    "watchLater": "inherit",
+    "playlist": "inherit"
+  },
+  "autoExitFullscreenOnEnd": false,
+  "autoExitFullscreenExcludeAutoPlay": false,
+  "showVerticalVideoZoomButton": false,
+  "showBewlyWidescreenButton": false,
+  "showVideoScreenshotButton": false,
+  "useBilibiliDefaultAutoPlay": true,
+  "autoPlayMultipart": "autoPlay",
+  "autoPlayCollection": "autoPlay",
+  "autoPlayRecommend": "autoPlay",
+  "autoPlayWatchLater": "autoPlay",
+  "autoPlayPlaylist": "autoPlay",
+  "keyboard": false,
+  "videoPlayerScroll": true,
+  "shortcuts": {
+    "danmuStatus": {
+      "key": "Shift+D",
+      "enabled": true
+    },
+    "webFullscreen": {
+      "key": "Shift+W",
+      "enabled": true
+    },
+    "widescreen": {
+      "key": "T",
+      "enabled": true
+    },
+    "bewlyWidescreen": {
+      "key": "Shift+T",
+      "enabled": true
+    },
+    "shortStepBackward": {
+      "key": "J",
+      "enabled": true
+    },
+    "longStepBackward": {
+      "key": "Shift+J",
+      "enabled": true
+    },
+    "playPause": {
+      "key": "K",
+      "enabled": true
+    },
+    "shortStepForward": {
+      "key": "L",
+      "enabled": true
+    },
+    "longStepForward": {
+      "key": "Shift+L",
+      "enabled": true
+    },
+    "pip": {
+      "key": "P",
+      "enabled": true
+    },
+    "turnOffLight": {
+      "key": "I",
+      "enabled": true
+    },
+    "caption": {
+      "key": "C",
+      "enabled": true
+    },
+    "increasePlaybackRate": {
+      "key": "+",
+      "enabled": true
+    },
+    "decreasePlaybackRate": {
+      "key": "-",
+      "enabled": true
+    },
+    "resetPlaybackRate": {
+      "key": "0",
+      "enabled": true
+    },
+    "previousFrame": {
+      "key": ",",
+      "enabled": true
+    },
+    "nextFrame": {
+      "key": ".",
+      "enabled": true
+    },
+    "replay": {
+      "key": "Shift+Backspace",
+      "enabled": true
+    },
+    "increaseVideoSize": {
+      "key": "Shift++",
+      "enabled": true
+    },
+    "decreaseVideoSize": {
+      "key": "Shift+-",
+      "enabled": true
+    },
+    "resetVideoSize": {
+      "key": "Shift+0",
+      "enabled": true
+    },
+    "videoTitle": {
+      "key": "B",
+      "enabled": true
+    },
+    "videoTime": {
+      "key": "G",
+      "enabled": true
+    },
+    "clockTime": {
+      "key": "H",
+      "enabled": true
+    },
+    "homeRefresh": {
+      "key": "R",
+      "enabled": true
+    }
+  },
+  "rememberPlaybackRate": false,
+  "savedPlaybackRate": 1,
+  "rememberVideoAspectRatio": false,
+  "savedVideoAspectRatio": null,
+  "enableRandomPlay": false,
+  "defaultCustomPlayOrder": "random",
+  "enableCustomPlayOrderOverrides": false,
+  "customPlayOrderOverrides": {
+    "multipart": "inherit",
+    "collection": "inherit",
+    "watchLater": "inherit",
+    "playlist": "inherit"
+  },
+  "randomPlayMode": "manual",
+  "minVideosForRandom": 5
+}
