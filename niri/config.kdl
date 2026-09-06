@@ -374,7 +374,7 @@ binds {
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T { spawn "kitty"; }
-    Mod+D { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "toggle"; }
+	Mod+D { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
@@ -643,11 +643,8 @@ binds {
 }
 
 layer-rule {
-  match namespace="^noctalia-overview*"
-  place-within-backdrop true
+    match namespace="^noctalia-backdrop"
+    place-within-backdrop true
 }
 
-spawn-at-startup "qs" "-c" "noctalia-shell"
-
-include "./noctalia.kdl"
-
+spawn-at-startup "noctalia"

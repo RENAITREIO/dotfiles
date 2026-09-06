@@ -1,10 +1,9 @@
 ~/.config/kitty/
-~/.config/niri/config.kdl
+~/.config/niri/
 ~/.config/fish/config.fish
 ~/.vimrc
 ~/.config/nvim/
 ~/.config/mpv/
-~/.config/noctalia/
 ~/.bashrc
 ~/.config/fastfetch/
 ~/.config/yazi/
