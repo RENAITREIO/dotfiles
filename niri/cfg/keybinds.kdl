@@ -152,7 +152,7 @@ binds {
     Mod+M                               { maximize-window-to-edges; }
 
     // ─── Screenshots ───
-    CTRL+ALT+A                        { screenshot; }
+    CTRL+ALT+A							{ spawn "noctalia" "msg" "screenshot-region"; }
     CTRL+Shift+2                        { screenshot-screen; }
     CTRL+Shift+3                        { screenshot-window; }
 
