@@ -2,3 +2,12 @@
 edit = [
     { run = 'vim %s', block = true, for = "unix" },
 ]
+okular = [
+	{ run = 'setsid okular %s', for = "linux" }
+]
+
+[open]
+prepend_rules = [
+	{ mime = "application/pdf", use = ["okular"] },
+	{ mime = 'application/epub+zip', use = ["okular"] }
+]
