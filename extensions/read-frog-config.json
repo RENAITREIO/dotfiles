@@ -7,6 +7,24 @@
     },
     "providersConfig": [
       {
+        "id": "jalapenocloud-default",
+        "name": "Jalapeno Cloud",
+        "description": "Enterprise-grade AI used by top teams — now made for you!",
+        "enabled": false,
+        "baseURL": "https://api.jalapeno-cloud.ai/v1",
+        "providerOptions": {
+          "chat_template_kwargs": {
+            "thinking": false
+          }
+        },
+        "provider": "jalapenocloud",
+        "model": {
+          "model": "DeepSeek-V4-Flash",
+          "isCustomModel": false,
+          "customModel": null
+        }
+      },
+      {
         "id": "microsoft-translate-default",
         "name": "Microsoft Translator",
         "enabled": true,
@@ -35,7 +53,7 @@
         "id": "deepseek-default",
         "name": "DeepSeek",
         "description": "推荐在中国使用",
-        "enabled": true,
+        "enabled": false,
         "provider": "deepseek",
         "model": {
           "model": "deepseek-v4-flash",
@@ -58,23 +76,25 @@
         }
       }
     ],
-    "translate": {
+    "pageTranslation": {
       "providerId": "google-translate-default",
       "mode": "bilingual",
       "modeShortcut": "Alt+Shift+M",
       "node": {
         "enabled": false,
         "hotkey": "control",
+        "shortcut": "Alt+Q",
         "forceRetranslation": false
       },
       "page": {
         "range": "all",
+        "translateTitle": true,
         "autoTranslatePatterns": [
-          "news.ycombinator.com"
+          "*.news.ycombinator.com"
         ],
         "neverAutoTranslatePatterns": [],
         "autoTranslateLanguages": [],
-        "shortcut": "Alt+E",
+        "shortcut": "Alt+A",
         "preload": {
           "margin": 1000,
           "threshold": 0
@@ -98,7 +118,7 @@
         "maxItemsPerBatch": 4
       },
       "translationNodeStyle": {
-        "preset": "blur",
+        "preset": "dashedLine",
         "isCustom": false,
         "customCSS": null
       }
@@ -308,24 +328,47 @@
       "opacity": 100,
       "features": {
         "translate": {
-          "enabled": true,
+          "enabled": false,
           "providerId": "google-translate-default",
           "shortcut": "Alt+T"
         },
         "speak": {
-          "enabled": true
+          "enabled": false,
+          "shortcut": "Alt+Shift+R"
         }
       },
       "builtInActions": {
         "dictionary": {
           "enabled": true,
-          "providerId": "read-frog-free-ai"
+          "providerId": "read-frog-free-ai",
+          "shortcut": "Alt+Shift+D"
+        },
+        "sentenceAnalysis": {
+          "enabled": true,
+          "providerId": "read-frog-free-ai",
+          "shortcut": "Alt+Shift+G"
+        },
+        "improveWriting": {
+          "enabled": true,
+          "providerId": "read-frog-free-ai",
+          "shortcut": "Alt+Shift+W"
         }
       },
       "customActions": [],
-      "saveSuggestion": {
+      "order": [
+        "translate",
+        "speak",
+        "default-dictionary",
+        "default-sentence-analysis",
+        "default-improve-writing"
+      ],
+      "unpinned": [
+        "default-improve-writing"
+      ],
+      "noteSuggestion": {
         "enabled": false,
-        "actionId": "default-dictionary"
+        "actionId": "default-dictionary",
+        "providerId": "read-frog-advance-ai"
       }
     },
     "sideContent": {
@@ -347,7 +390,11 @@
     },
     "videoSubtitles": {
       "enabled": true,
-      "autoStart": false,
+      "autoStart": {
+        "youtube": false,
+        "xcom": false,
+        "netflix": false
+      },
       "toggleShortcut": "Alt+C",
       "providerId": "google-translate-default",
       "style": {
@@ -367,9 +414,11 @@
         },
         "container": {
           "backgroundOpacity": 75
-        }
+        },
+        "customCSS": null
       },
       "aiSegmentation": false,
+      "wordLookupActionId": "default-dictionary",
       "requestQueueConfig": {
         "capacity": 20,
         "rate": 8
@@ -396,7 +445,22 @@
       "userRules": [],
       "disabledBuiltInRules": []
     },
-    "uiLanguage": "auto"
+    "uiLanguage": "auto",
+    "translationHub": {
+      "shortcut": "Alt+Shift+H",
+      "selectedProviderIds": null,
+      "sourceCode": null,
+      "targetCode": null,
+      "promptId": "default"
+    },
+    "glossary": {
+      "enabled": false
+    }
   },
-  "schemaVersion": 93
+  "schemaVersion": 115,
+  "glossary": {
+    "schemaVersion": 1,
+    "glossaries": [],
+    "terms": []
+  }
 }
