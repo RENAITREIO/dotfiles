@@ -1,0 +1,35 @@
+{
+    "vim.useSystemClipboard": true,
+    "editor.lineNumbers": "relative",
+    "background.fullscreen": {
+        "images": ["file:///home/elaine/Pictures/vscodebackground.jpg"],
+        "opacity": 0.1,
+        "size": "cover",
+        "position": "center",
+        "styles": [],
+        "interval": 0,
+        "random": false
+    },
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.fontFamily": "'Adwaita Mono', monospace",
+    "update.mode": "none",
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "network.meteredConnection": "off",
+    "chat.agent.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "vim.foldfix": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+          "before": ["<space>"],
+          "after": ["z", "a"] 
+        }
+    ],
+    "github.copilot.enable": {
+        "markdown": true
+    }
+}

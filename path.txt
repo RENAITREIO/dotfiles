@@ -8,3 +8,4 @@
 ~/.config/fastfetch/
 ~/.config/yazi/
 ~/.config/qq-flags.conf
+~/.config/Code - OSS/User/settings.json
